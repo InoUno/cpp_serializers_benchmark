@@ -1,0 +1,35 @@
+namespace bench
+
+enum Color {
+  Red
+  Green
+  Blue
+}
+
+struct Vec3 {
+  x: f32
+  y: f32
+  z: f32
+}
+
+struct Monster {
+  pos: Vec3
+  mana: i16
+  hp: i16
+  name: string
+  inventory: [u8]
+  color: Color
+  weapons: [Weapon]
+  equipped: Weapon
+  path: [Vec3]
+}
+
+struct Weapon {
+  name: string
+  damage: i16
+}
+
+struct MonstersList {
+  data: [Monster]
+}
+

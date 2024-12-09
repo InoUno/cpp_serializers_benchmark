@@ -73,6 +73,8 @@ std::string getLibraryName(SerializationLibrary name) {
     switch (name) {
         case SerializationLibrary::BITSERY:
             return "bitsery";
+        case SerializationLibrary::BLITZBUFFERS:
+            return "blitzbuffers";
         case SerializationLibrary::BOOST:
             return "boost";
         case SerializationLibrary::CEREAL:

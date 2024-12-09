@@ -33,6 +33,7 @@ add_subdirectory(testing_core)
 #################################################
 
 add_subdirectory(bitsery)
+add_subdirectory(blitzbuffers)
 add_subdirectory(boost)
 add_subdirectory(cereal)
 add_subdirectory(flatbuffers)

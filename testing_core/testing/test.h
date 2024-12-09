@@ -34,6 +34,7 @@ struct Buf {
 
 enum class SerializationLibrary {
     BITSERY,
+    BLITZBUFFERS,
     BOOST,
     CEREAL,
     FLATBUFFERS,

@@ -35,6 +35,7 @@
           "type": "pickString",
           "options": [
             "bitsery",
+            "blitzbuffers",
             "boost",
             "cereal",
             "flatbuffers",
